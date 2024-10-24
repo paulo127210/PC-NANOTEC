@@ -19,4 +19,5 @@ div{
 }
 header{
   justify-content: center;
+  display: flex;
 }
