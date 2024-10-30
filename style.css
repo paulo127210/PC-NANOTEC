@@ -17,6 +17,10 @@ div{
 .chamada.texto{
   margin-right: 5%;
 }
+mg {
+  height: 200px;
+}
+
 header{
   justify-content: center;
   display: flex;
