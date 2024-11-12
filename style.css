@@ -1,34 +1,30 @@
 body {
-  color: white; 
-  background-color: black; 
- 
+  color: white;
+  background-color: black;
 }
 
 section {
-  background: rgb(184,156,213);
+  background: rgb(184, 156, 213);
   padding-bottom: 80px;
   padding-top: 80px;
   display: flex;
   justify-content: center;
-  }
+}
 
-div{
+div {
   margin-right: 20px;
 }
-.chamada.texto{
+
+.chamada-texto {
   margin-right: 5%;
 }
+
 img {
   height: 200px;
 }
 
-header{
-  justify-content: center;
+.categoria-videos {
   display: flex;
-  categoria-videos {
-    display: flex;
- overflow-x: auto;
- gap: 10px;
-}
-
+  overflow-x: auto;
+  gap: 10px;
 }
