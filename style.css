@@ -25,6 +25,11 @@ img {
 
 .categoria-videos {
   display: flex;
-  overflow-x: auto;
-  gap: 10px;
+  flex-direction: column; /* Cria fila de vídeos na vertical */
+  max-height: 300px; /* Define a altura máxima desejada */
+  overflow-y: auto;  /* Permite a rolagem vertical */
+  overflow-x: hidden; /* Evita rolagem horizontal (opcional) */
+  border: 1px solid #ccc; /* Apenas para visualizar o limite do contêiner */
+  /*overflow-x: auto;*/
+  gap: 5px;
 }
