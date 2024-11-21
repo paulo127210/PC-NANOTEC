@@ -31,5 +31,5 @@ img {
   overflow-x: hidden; /* Evita rolagem horizontal (opcional) */
   border: 1px solid #ccc; /* Apenas para visualizar o limite do contêiner */
   /*overflow-x: auto;*/
-  gap: 5px;
+  gap: 100px;
 }
